@@ -33,7 +33,5 @@ def get_value(char):
         return int(char)
     elif char in "Xx/":
         return 10
-    elif char == '-':
-        return 0
     else:
-        raise ValueError()
+        return 0
