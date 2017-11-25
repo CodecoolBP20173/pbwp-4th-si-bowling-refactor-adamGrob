@@ -38,8 +38,3 @@ def game_is_spare(i, game, spare, result, max_points_per_try):
     else:
         return result + get_value(game[i])
 
-
-def main():
-    print(score("1/35XXX458/X3/XX6"))
-
-main()
